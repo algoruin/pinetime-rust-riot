@@ -26,7 +26,7 @@ int main(void)
 {
     storage_init();
     msg_init_queue(_main_msg_queue, MAIN_QUEUE_SIZE);
-    LOG_DEBUG("Starting PineTime application");
+    LOG_DEBUG("Starting PineTime application TETS");
     lv_init();
 
     hal_init();
