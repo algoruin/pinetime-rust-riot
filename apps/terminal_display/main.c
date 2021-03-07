@@ -24,7 +24,7 @@ int lvgl_thread_create(void);
 int main(void)
 {
     msg_init_queue(_main_msg_queue, MAIN_QUEUE_SIZE);
-    LOG_DEBUG("Starting PineTime application");
+    LOG_DEBUG("Starting PineTime applicationTEST");
     lv_init();
 
     hal_init();
